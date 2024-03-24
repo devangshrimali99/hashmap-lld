@@ -9,7 +9,7 @@ public class MyHashMap<K,V> {
     private static final double LOAD_FACTOR = 0.75;
     public static int CURRENT_SIZE=0;
 
-    public Entry[] hashTable;
+    private Entry[] hashTable;
 
     class Entry<K,V> {
         public K key;
