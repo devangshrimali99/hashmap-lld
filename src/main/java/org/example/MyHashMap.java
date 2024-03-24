@@ -97,6 +97,7 @@ public class MyHashMap<K,V> {
                 CURRENT_SIZE--;
                 return;
             }
+            node=node.next;
         }
         throw new IllegalArgumentException("Cannot Remove Key from HashMap as Key : " + key + "not found");
     }
